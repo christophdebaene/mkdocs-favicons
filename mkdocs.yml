@@ -1,0 +1,11 @@
+site_name: mkdocs-favicons
+
+theme:
+  name: material
+
+extra_javascript:
+    - assets/js/favicons.config.js
+    - assets/js/favicons.js
+    
+extra_css:
+    - assets/css/favicons.css
