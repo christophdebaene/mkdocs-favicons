@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The [mkdocs-favicons](https://github.com/christophdebaene/mkdocs-favicons) plugin enables the automatic generation of a [favicon](https://en.wikipedia.org/wiki/Favicon) before each external link. Additionally, it provides an option to configure externals link to open in a new tab.
+The [mkdocs-link-favicon](https://github.com/christophdebaene/mkdocs-link-favicon) plugin enables the automatic generation of a [favicon](https://en.wikipedia.org/wiki/Favicon) before each external link. Additionally, it provides an option to configure externals link to open in a new tab.
 
 For a demonstration, you can visit my personal [website](https://christophdebaene.be).
 
@@ -15,10 +15,10 @@ To integrate the plugin into your documentation:
 
 ```yaml
 extra_javascript:
-    - assets/js/favicons.config.js
-    - assets/js/favicons.js
+    - assets/js/link-favicon.config.js
+    - assets/js/link-favicon.js
 extra_css:
-    - assets/css/favicons.css    
+    - assets/css/link-favicon.css
 ```
 
 ## Configuration
@@ -35,7 +35,7 @@ The `openInNewWindow` boolean determines whether external hyperlinks should open
 
 Specific URLs for which you don't want a favicon generated, you can include them in the `excludes` array.
 
-Example of the config file `assets/js/favicons.config.js`
+Example of the config file `assets/js/link-favicon.config.js`
 
 ```javascript
 const faviconsConfig = 

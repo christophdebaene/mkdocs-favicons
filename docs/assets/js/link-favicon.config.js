@@ -1,4 +1,4 @@
-const faviconsConfig = 
+const linkFaviconConfig = 
 {
     provider: 'Google',
     openInNewWindow: true,

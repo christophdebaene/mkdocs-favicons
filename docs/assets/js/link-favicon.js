@@ -59,6 +59,6 @@ function addFavicons(config) {
 
 if (typeof document$ !== "undefined") {
     document$.subscribe(function () {        
-        addFavicons(faviconsConfig);
+        addFavicons(linkFaviconConfig);
     })
 }

@@ -1,11 +1,11 @@
-site_name: mkdocs-favicons
+site_name: mkdocs-link-favicon
 
 theme:
   name: material
 
 extra_javascript:
-    - assets/js/favicons.config.js
-    - assets/js/favicons.js
+    - assets/js/link-favicon.config.js
+    - assets/js/link-favicon.js
     
 extra_css:
-    - assets/css/favicons.css
+    - assets/css/link-favicon.css
