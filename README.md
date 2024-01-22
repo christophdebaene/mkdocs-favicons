@@ -23,7 +23,13 @@ extra_css:
 
 ## Configuration
 
-The service used to generate favicons is the one from Google Shared Stuff (S2), but you can customize icons by adding them to the `assets/icons` directory and specifying a mapping in the configuration file.
+The following providers can be used to generate favicons
+
+ - Google *(default)*
+ - DuckDuckGo
+ - IconHorse
+
+You can customize icons by adding them to the `assets/icons` directory and specifying a mapping in the configuration file.
 
 The `openInNewWindow` boolean determines whether external hyperlinks should open in a new tab.
 
@@ -34,6 +40,7 @@ Example of the config file `assets/js/favicons.config.js`
 ```javascript
 const faviconsConfig = 
 {
+    provider: 'Google',
     openInNewWindow: true,
     iconsPath: '/assets/icons',
     icons: {

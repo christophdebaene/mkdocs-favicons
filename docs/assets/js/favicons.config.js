@@ -1,5 +1,6 @@
 const faviconsConfig = 
 {
+    provider: 'Google',
     openInNewWindow: true,
     iconsPath: '/assets/icons',
     icons: {
