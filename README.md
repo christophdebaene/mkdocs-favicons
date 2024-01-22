@@ -1,4 +1,4 @@
-# mkdocs-favicons
+# mkdocs-link-favicon
 
 ## Introduction
 
@@ -38,7 +38,7 @@ Specific URLs for which you don't want a favicon generated, you can include them
 Example of the config file `assets/js/link-favicon.config.js`
 
 ```javascript
-const faviconsConfig = 
+const linkFaviconConfig = 
 {
     provider: 'Google',
     openInNewWindow: true,
