@@ -1,10 +1,7 @@
 # mkdocs-link-favicon
 
-## Introduction
-
 The [mkdocs-link-favicon](https://github.com/christophdebaene/mkdocs-link-favicon) plugin enables the automatic generation of a [favicon](https://en.wikipedia.org/wiki/Favicon) before each external link. Additionally, it provides an option to configure externals link to open in a new tab.
-
-For a demonstration, you can visit my personal [website](https://christophdebaene.be).
+A demo can be found on my personal [website](https://christophdebaene.be).
 
 ## Installation
 
