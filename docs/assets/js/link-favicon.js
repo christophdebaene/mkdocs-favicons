@@ -52,7 +52,10 @@ function addFavicons(config) {
     var links = document.querySelectorAll('.md-content a[href*="://"]');
     for (const link of links) {
         if (!config.excludes.some(x => link.href.startsWith(x))) {
-            addFavicon(config, link);
+
+            if (!link.querySelector('img')) {
+                addFavicon(config, link);
+            }            
         }
     }
 }
